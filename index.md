@@ -9,12 +9,12 @@ startdate: "2018-12-03"      # machine-readable start date for the workshop in Y
 enddate: "2018-12-04"        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Karin Lagesen, Chris Hamm"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Sarah Pugachev"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["topher.hamm@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+contact: ["karin.lagesen@gmail.com", "topher.hamm@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad: https://pad.carpentries.org/2018-12-03-ttt-online            # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
   - venue: "Online"
-    address: "https://carpentries.zoom.us/j/FIXME"
+    address: "https://carpentries.zoom.us/my/carpentriesroom1"
 
 
 ---
@@ -119,7 +119,6 @@ This is an online event. We will meet using the online videoconference software 
 {% endif %}
 {% endfor %}
 
-<<<<<<< HEAD:index.html
 {% if inperson == "true" %}
 
 <h4 id="accessibility">Accessibility</h4>
@@ -127,7 +126,6 @@ This is an online event. We will meet using the online videoconference software 
 We are committed to making this workshop
 accessible to everybody.
 The workshop organisers have checked that:
-=======
 <p>
   <strong>Requirements:</strong> Participants should bring a laptop
   that is Internet connected and has a functioning browser.  If you
@@ -151,7 +149,6 @@ The workshop organisers have checked that:
     <a href="{{ site.swc_site }}/conduct/">Code of Conduct</a>.
   </em>
 </p>
->>>>>>> 5fae63cf0d73f395f8316dc07a78032a422f0e48:index.md
 
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
